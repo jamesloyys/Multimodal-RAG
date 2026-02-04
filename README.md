@@ -48,7 +48,7 @@ Input: PDF / Images / Text
 ### Prerequisites
 
 - Python 3.10+
-- CUDA-compatible GPU (recommended: 24GB+ VRAM)
+- CUDA-compatible GPU
 - Poppler (for PDF processing)
 
 ### Install Dependencies
@@ -85,7 +85,7 @@ See [multimodal_rag.ipynb](multimodal_rag.ipynb) for a complete example that:
 
 ```
 Multimodal_Embeddings/
-├── helpers.py                  # vLLM helper functions
+├── helpers.py                 # Helper functions
 ├── reranker_template.jinja    # Reranking prompt template
 ├── multimodal_rag.ipynb       # Complete RAG pipeline demo
 ├── requirements.txt           # Minimal dependencies
